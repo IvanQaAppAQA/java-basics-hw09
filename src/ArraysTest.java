@@ -22,6 +22,16 @@ public class ArraysTest {
                         new String[]{"here", "is", "some", "text", ".", "text"},
                         new String[]{"some", "text", "above", "."},
                         new String[]{"some", "text", "."}
+                },
+                {
+                        new String[]{"цра", "is", "some", "text", ".", "text"},
+                        new String[]{"цра", "text", "above", "."},
+                        new String[]{"цра", "text", "."}
+                },
+                {
+                        new String[]{"C#", "rrr", "C#", "text", ".", "text"},
+                        new String[]{"C#", "text", "above", "."},
+                        new String[]{"C#", "text", "."}
                 }
                 // TODO add 2 more test data here
         };
